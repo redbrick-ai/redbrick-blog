@@ -4,10 +4,10 @@ date: "2023-06-08"
 category: "Customers"
 excerpt: "Discover how Radiomics, a Belgium-based MedTech scale-up, uses RedBrick AI to optimize clinical trials in oncology through AI-powered medical image analysis. Learn how their team leverages our platform for precise segmentation and feature extraction in radiomics analysis."
 author: "Shivam Sharma"
-thumbnail: "./radiomics-header.png"
+thumbnail: "./image1.png"
 ---
 
-![Radiomics Header](./radiomics-header.png)
+![Radiomics Header](./image1.png)
 
 **Insight Based Decision Making - Radiomics & RedBrick AI**
 
@@ -15,9 +15,6 @@ Shivam Sharma
 
 June 8, 2023
 
-![64899ae6cd994ba401a2a450_Mask group
-(13).png](./image1.png){width="6.4998611111111115in"
-height="3.6586045494313213in"}
 
 **Introduction**
 
