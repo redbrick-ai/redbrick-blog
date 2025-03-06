@@ -1,3 +1,12 @@
+---
+title: "Improved Diagnosis for Life - Olea Medical & RedBrick AI"
+date: "2023-07-07"
+category: "Customers"
+excerpt: "Learn how Olea Medical, a Canon Medical Systems company, uses RedBrick AI to develop intelligent MRI and CT imaging solutions. Discover how their team leverages our platform to create innovative diagnostic tools used by over 250 research institutions worldwide."
+author: "Shivam Sharma"
+thumbnail: "./products.svg"
+---
+
 **Improved Diagnosis for Life - Olea Medical & RedBrick AI**
 
 Shivam Sharma
@@ -22,7 +31,7 @@ Olea Medical has developed several multi-vendor post-processing
 solutions for MRI and CT scanner images. Olea Medical offers solutions
 for the following:
 
-![Attachment.png](https://datasets.redbrickai.com/blog/olea-medical/products.svg)
+![Attachment.png](./products.svg)
 
 **Accessing critical stroke information quickly**
 
@@ -36,7 +45,7 @@ significant number of brain cells.
 Two imaging techniques crucial in the diagnosis of stroke are
 Diffusion-weighted Imaging (DWI) and Perfusion-weighted Imaging (PWI).
 
-![Attachment.png](https://datasets.redbrickai.com/blog/olea-medical/mri.svg)
+![Attachment.png](./mri.svg)
 
 In acute stroke, cells swell due to a lack of oxygen and nutrients,
 leading to cytotoxic edema, which restricts the movement of water
@@ -84,7 +93,7 @@ Jean-Francois Weissmann
 
 Research and innovation Engineer
 
-![Attachment.png](https://datasets.redbrickai.com/blog/olea-medical/chart.svg)
+![Attachment.png](./chart.svg)
 
 Researchers often choose tools such as ITK SNAP and 3D Slicer due to
 their comfort and the capability of the segmentation tools. However,
@@ -100,7 +109,7 @@ Jean-Francois Weissmann
 
 Research and innovation Engineer
 
-![Attachment.png](https://datasets.redbrickai.com/blog/olea-medical/table.svg)
+![Attachment.png](./table.svg)
 
 As the scale of your annotation project grows, involving external
 annotation teams to augment internal efforts may become necessary.
@@ -155,7 +164,7 @@ Jean-Francois Weissmann
 
 Research and innovation Engineer
 
-![Attachment.png](https://datasets.redbrickai.com/blog/olea-medical/brush-threshold.gif)
+![Attachment.png](./brush-threshold.gif)
 
 Our team at RedBrick AI feels incredibly fortunate to work with
 customers at the forefront of healthcare AI. We are excited to continue
