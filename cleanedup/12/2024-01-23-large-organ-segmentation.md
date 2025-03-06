@@ -1,3 +1,12 @@
+---
+title: "Guide: Segmentation of Large Organs in Abdominal CT Scans"
+date: "2024-01-23"
+category: "Guide"
+excerpt: "A comprehensive guide on segmenting large organs like kidneys, liver, and pancreas using RedBrick AI's advanced tools. Learn multiple segmentation techniques including 3D Brush with masking, 3D Contour Tool, and F.A.S.T. AI-assisted segmentation."
+author: "Ben Stewart"
+thumbnail: "./image4.gif"
+---
+
 Segmentation of large organs in abdominal CT scans
 
 Ben Stewart
