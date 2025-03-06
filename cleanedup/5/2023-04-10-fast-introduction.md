@@ -1,6 +1,17 @@
-**RedBrick AI\'s F.A.S.T**
+---
+title: "Introducing F.A.S.T: RedBrick AI's Fast Automated Segmentation Tool"
+date: "2023-04-10"
+category: "Product"
+excerpt: "We're excited to release our Fast Automated Segmentation Tool, powered by Meta AI's SAM, for medical imaging. Segment your DICOM & NIfTI data 10x faster with state-of-the-art AI segmentation integrated into RedBrick AI's web-based annotation platform."
+author: "Shivam Sharma"
+thumbnail: "./fast-demo.gif"
+---
 
+**RedBrick AI's F.A.S.T**
 
+Shivam Sharma
+
+April 10, 2023
 
 We[']{dir="rtl"}re excited to release our Fast Automated Segmentation
 Tool, powered by [Meta AI\'s
