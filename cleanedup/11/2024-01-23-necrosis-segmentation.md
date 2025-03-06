@@ -1,7 +1,7 @@
 ---
 title: "Guide: Volumetric Segmentation of Necrosis and Edema"
 date: "2024-01-23"
-category: "Tutorial"
+category: "Guide"
 excerpt: "A detailed walkthrough on segmenting high-grade gliomas using RedBrick AI. Learn how to use multiple MRI sequences (T1W, T1CE, T2W, FLAIR) to accurately segment necrosis and edema, with advanced techniques for contour tools and overlapping segmentations."
 author: "Ben Stewart"
 thumbnail: "./image1.gif"
