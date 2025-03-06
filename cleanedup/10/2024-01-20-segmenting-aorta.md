@@ -1,3 +1,12 @@
+---
+title: "Guide: Segmenting the Aorta and Iliac Arteries in Abdominal CTA Scans"
+date: "2024-01-20"
+category: "Tutorial"
+excerpt: "A comprehensive guide on using RedBrick AI's tools and workflows to segment the aorta and iliac arteries in abdominal CTA scans. Learn how to set up your project, use region growing for base segmentation, and apply boolean operations for detailed arterial classification."
+author: "Shivam Sharma"
+thumbnail: "./image1.png"
+---
+
 Segmenting the aorta and iliac arteries in abdominal CTA scans
 
 Shivam Sharma
@@ -45,7 +54,7 @@ taxonomy we just created.
 documentation](https://docs.redbrickai.com/projects/get-started-with-a-project)
 for instructions on creating projects.*
 
-### Upload CTA NRRD data within your project
+### Upload CTA NRRD data within your project
 
 Now, let's import a few CTA studies into our project. For
 this use case, we will use data from the study "[AVT:
@@ -89,13 +98,13 @@ as iliac arteries.
 
 ![Video 2](./video2.mp4)
 
-### Cleaning up using 3D scissors, hole-fill, and more
+### Cleaning up using 3D scissors, hole-fill, and more
 
 Now that the base segmentation is done, we can perform basic cleanup by using:
-1. 3D hole filling to fill all small holes in the segmentation.
-2. 3D scissors on the 3D view to remove large chunks of overflowing segmentations.
-3. Island removal to only keep the main segmentation structure.
-4. Dilation (left-click to dilate, right-click to erode) increases our segmentation by 1 pixel in all directions.
+1. **3D hole filling** to fill all small holes in the segmentation.
+2. **3D scissors** on the 3D view to remove large chunks of overflowing segmentations.
+3. **Island removal** to only keep the main segmentation structure.
+4. **Dilation** (left-click to dilate, right-click to erode) increases our segmentation by 1 pixel in all directions.
 
 ![Video 3](./video3.mp4)
 
