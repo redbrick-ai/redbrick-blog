@@ -1,12 +1,15 @@
-# Introduction to DICOM Coordinate Systems
-
-Shivam Sharma
-
-January 15, 2022
+---
+title: "Introduction to DICOM Coordinate Systems"
+date: "2022-01-15"
+category: "Learning"
+excerpt: "A comprehensive guide for ML/CV engineers to understand DICOM coordinate systems, image positioning, and orientation. Learn how to properly handle 3D medical images, measure in physical dimensions, and correctly order 2D slices."
+author: "Shivam Sharma"
+thumbnail: "./ct-scan-3d.gif"
+---
 
 This blog aims to provide ML/CV engineers with a working knowledge of DICOM coordinate systems, and positioning and orientation of DICOM images.
 
-If you’re completely new to DICOM, I’ve written an Introduction to DICOM data for computer vision engineers here.
+If you're completely new to DICOM, I've written an Introduction to DICOM data for computer vision engineers here.
 
 
 **3D Images**
