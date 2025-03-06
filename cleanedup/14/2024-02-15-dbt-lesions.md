@@ -1,3 +1,12 @@
+---
+title: "Guide: Lesion Detection in Mammography, DBT, and Breast MRI"
+date: "2024-02-15"
+category: "Clinical"
+excerpt: "A comprehensive guide on using RedBrick AI for multi-modality breast imaging analysis. Learn specialized workflows for mammogram hanging protocols, DBT lesion detection using cineloop, and 3D tumor detection in breast MRI with synchronized viewing capabilities."
+author: "Shivam Sharma"
+thumbnail: "./image1.png"
+---
+
 Lesion detection in mammography, DBT and breast MRI
 
 Shivam Sharma
