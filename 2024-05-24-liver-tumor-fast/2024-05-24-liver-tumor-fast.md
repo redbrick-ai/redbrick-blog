@@ -1,3 +1,12 @@
+---
+title: "Liver Tumor segmentation: F.A.S.T. vs Edge Selection with Contour tool"
+date: "2024-05-24"
+category: "Technical"
+excerpt: "Learn how the FAST tool compares to the contour tool for segmenting a liver tumor."
+author: "Vikas Chauhan"
+thumbnail: "./thumbnail.png"
+---
+
 Liver Tumor segmentation: F.A.S.T vs Edge Selection with Contour tool
 
 Vikas Chauhan
@@ -7,6 +16,7 @@ May 24, 2024
 ![66507d12948382ff94f91a6a_Blog Post.png](./image1.png)
 
 ## Introduction
+
 The liver stands as the largest solid organ in the human body, exerting crucial functions in metabolism and digestion. Unfortunately, primary liver cancer ranks as the second most fatal cancer globally. Moreover, owing to its susceptibility to both primary and secondary tumor development, the liver poses significant challenges to the accurate segmentation of lesions due to its heterogeneous and diffuse nature.
 
 Liver tumors may originate within the liver itself or migrate from other abdominal or distant organs, necessitating meticulous analysis for comprehensive tumor staging. However, the conventional manual segmentation process employed in 3D CT scans proves time-consuming, lacks reproducibility, and yields results subject to operator variability.
@@ -19,6 +29,7 @@ To address these challenges, we present a comparison of liver tumor segmentation
 By evaluating the efficiency and efficacy of these tools, we aim to provide insights into optimizing liver tumor segmentation workflows.
 
 ## What is F.A.S.T?
+
 F.A.S.T (Fast Automated Segmentation Tool) revolutionizes the process of medical image segmentation by offering rapid and accurate generation of both 2D and 3D segmentations. Powered with Meta AI's SAM, a cutting-edge technology tailored for medical imaging, F.A.S.T stands as a versatile solution applicable across all radiology modalities.
 
 Powered by sophisticated algorithms and machine learning capabilities, F.A.S.T ensures consistent and reliable annotations, alleviating the manual burden and accelerating the annotation process. Whether it involves identifying pathology, outlining anatomical structures, or mapping disease progression, F.A.S.T's automated annotation prowess streamlines annotation workflows, empowering annotators to focus on nuanced tasks and model refinement.
@@ -47,13 +58,13 @@ This guide provides a direct comparison between the F.A.S.T and Edge Selection +
 
 Let's start by creating a taxonomy to define what we will annotate. We will create a "Lesion" object label of segmentation taxonomy type.
 
-*Please [visit our documentation](https://docs.redbrickai.com/projects/taxonomies) for instructions on creating taxonomies.*
+_Please [visit our documentation](https://docs.redbrickai.com/projects/taxonomies) for instructions on creating taxonomies._
 
 #### Create a New Project
 
 The next step is to create a new project with a label and review workflow using the taxonomy we just created.
 
-*Please [visit our documentation](https://docs.redbrickai.com/projects/get-started-with-a-project) for instructions on creating Projects.*
+_Please [visit our documentation](https://docs.redbrickai.com/projects/get-started-with-a-project) for instructions on creating Projects._
 
 #### Dataset
 
@@ -63,7 +74,7 @@ The dataset is diverse and contains primary and secondary tumors with varied siz
 
 You can access the subset of data [here](https://drive.google.com/drive/folders/1pOCb9NWSNET3kxJH3440qWgAXGX9AnEm?usp=sharing)
 
-*Please [visit our documentation](https://docs.redbrickai.com/importing-data/direct-data-upload) for instructions on uploading data.*
+_Please [visit our documentation](https://docs.redbrickai.com/importing-data/direct-data-upload) for instructions on uploading data._
 
 ### Setting up the viewer
 
@@ -85,10 +96,6 @@ We'll begin by segmenting the liver tumor across the slices using the edge selec
 - The interpolation tool will then create edges for all the slices in between.
 - If you're satisfied with the interpolation, click the rasterize button on the right bar to segment the lesion for all the slices.
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/492e3b134d59478db718fe3869e1df23?sid=a4742fc8-f008-472f-838e-c7419b84973a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
-
 ### Segmenting using F.A.S.T Tool
 
 After creating and selecting the object label,
@@ -98,13 +105,12 @@ After creating and selecting the object label,
 - Repeat the above step for an additional slice. Once you've finished with the segmentation, click on the "Finalize" button or use the "Shift + Enter" shortcut to finalize.
 - After this, the tool will interpolate the bounding boxes across the slices.
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/79c26e878ad34876ba5316e64965d9ac?sid=436f8831-f451-4a4b-8b4f-fcf0215be990" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 ### Time taken to segment
 
 Finally, we can compare the time taken to annotate a lesion using both tools. F.A.S.T. can save roughly one-third of the annotation time compared to the other tool. Thus, F.A.S.T. can be an extremely useful tool for projects involving a large number of annotation tasks, significantly reducing the overall annotation time.
 
 ![66504828b72839774582c77a_Rectangle 1 (1).png](./image4.png)
+
 ### Additional Resources on F.A.S.T
 
 If you have any questions or feedback on F.A.S.T, Please reach out to us at [support@redbrickai.com](mailto:support@redbrickai.com).

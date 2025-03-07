@@ -4,7 +4,7 @@ date: "2024-03-22"
 category: "Data Management"
 excerpt: "A comprehensive guide on using RedBrick AI's cohort creation features for data curation and study preparation. Learn how to upload, index, filter, and organize medical imaging data with metadata management, manual classification, and distribution analysis tools."
 author: "Derek Lukacs"
-thumbnail: "./image1.png"
+thumbnail: "./thumbnail.png"
 ---
 
 Data curation and cohort creation on RedBrick AI
@@ -80,10 +80,10 @@ with open("upload_format.json", "w+") as file:
     json.dump(upload_format, file, indent=2)
 ```
 
-
 Download this [Python file here](https://github.com/redbrick-ai/cohort-creation-guide/blob/main/csv_to_json.py) and the [JSON file here](https://github.com/redbrick-ai/cohort-creation-guide/blob/main/upload_format.json). This JSON file follows the RedBrick AI [items list format](https://docs.redbrickai.com/importing-data/import-cloud-data/creating-an-items-list).
 
 This will produce a JSON file in the following format:
+
 ```json
 [
 	{

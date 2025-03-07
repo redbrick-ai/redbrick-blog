@@ -4,7 +4,7 @@ date: "2024-02-28"
 category: "Customers"
 excerpt: "RapidAI is a global leader in using artificial intelligence (AI) to combat life-threatening vascular and neurovascular conditions. Their products are used in more than 2,200 hospitals in over 100 countries to help physicians make faster, more accurate decisions for better patient outcomes."
 author: "Shivam Sharma"
-thumbnail: "/blog/2024-02-28-redefining-neurovascular-care-rapidai/thumbnail_rapidai-case-study.png"
+thumbnail: "thumbnail.png"
 ---
 
 RapidAI is a global leader in using artificial intelligence (AI) to combat life-threatening vascular and neurovascular conditions. Their products are used in more than 2,200 hospitals in over 100 countries to help physicians make faster, more accurate decisions for better patient outcomes.
@@ -81,13 +81,6 @@ RapidAI started working with RedBrick in January 2023, and is currently working 
 > Dr. Ryan Mason
 >
 > Neuroradologist
-
-<div style="text-align: center">
-  <video width="784" height="441" controls>
-    <source src="https://media.cleanshot.cloud/media/72209/jefIBPAsAEl89pGveppPsTJkRNXH2pD0Rc7MiJ2i.mp4?Expires=1741231431&Signature=GemYIxvTS4PIKkvTRK3Iqx9MOPC0RHrvtBXt1dd~d0ovg8m1rtEdKdWypGjopB8AYRKKK6IrmRYSrrziKSgen~pxtJjVU4dFYDUwCuwxo8c0rjYW3zDecoS6MaYWX8gwDSuvUmtqH2sk9lf2exTNHikC5dPqiGijsEo1FJrzzcG0HtBjoFhXpmB0vJMQxuFsNai1HUGAsZpkycXmXmLWGlub57GLlOMbPC4XgFWlwRIjGdq4dVyxHA9WelTOhY7qN9ZXNzKOfXxffiYq~Vo-9A7V7GKBSxgzXAd1N3b0z7qhQHMRg7WgvYc4DcH-Y0eZIkWUBg0jx7Qz3MOJ6pSDcA__&Key-Pair-Id=K269JMAT9ZF4GZ" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
 
 ### Purpose-built for radiology AI
 

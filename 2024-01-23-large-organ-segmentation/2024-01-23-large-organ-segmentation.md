@@ -4,7 +4,7 @@ date: "2024-01-23"
 category: "Guide"
 excerpt: "A comprehensive guide on segmenting large organs like kidneys, liver, and pancreas using RedBrick AI's advanced tools. Learn multiple segmentation techniques including 3D Brush with masking, 3D Contour Tool, and F.A.S.T. AI-assisted segmentation."
 author: "Ben Stewart"
-thumbnail: "./image4.gif"
+thumbnail: "./thumbnail.png"
 ---
 
 Segmentation of large organs in abdominal CT scans
@@ -21,7 +21,7 @@ Project included with your RedBrick AI trial.
 Throughout this document, you'll find check boxes that you
 can fill in after completing the associated task. For example:
 
-* Open a Task in the Abdomen (Sample) Project in RedBrick AI
+- Open a Task in the Abdomen (Sample) Project in RedBrick AI
 
 ### Masking
 
@@ -53,11 +53,10 @@ If you're familiar with DICOM and PACS viewers,
 you've likely made use of [Hanging Protocols](https://docs.redbrickai.com/annotation-and-viewer/viewer-basics/custom-hanging-protocol#custom-hanging-protocol-format-reference), and they're also available on RedBrick AI!
 
 ```ts
-setThresholding(0, 40, 610)
+setThresholding(0, 40, 610);
 ```
 
 Head to Project Settings → Hanging Protocol and paste the above function into the field to define a project-wide thresholding range:
-
 
 ![Gif of hanging protocol](./image5.gif)
 
@@ -75,11 +74,11 @@ below.
 
 [Annotating the kidney video](./Annotating%20the%20kidney%20with%20the%203D%20Brush,%203D%20Hole%20Filling,%20&%203D%20Island%20Tool.mp4)
 
-
 Flow toolkit:
-* 3D Brush Tool
-* 3D Hole Filling - to ensure no stray holes in the kidney annotation
-* 3D Island Tool - to delete any stray voxels outside of the kidney
+
+- 3D Brush Tool
+- 3D Hole Filling - to ensure no stray holes in the kidney annotation
+- 3D Island Tool - to delete any stray voxels outside of the kidney
 
 ### 3D Contour Tool
 
@@ -95,21 +94,22 @@ The 3D Contour Tool utilizes interpolation to create contours across a defined r
 
 Let's get some labeling done - follow along in the
 Annotation Tool!
-* create a second Entity for Kidneys
-* disable Restrict by pixel intensity (if you have it enabled)
-* scroll to the top or bottom of the un-annotated kidney
-* create a contour on a single slice
-* rasterize the single contour by clicking on Rasterize in the right hand Context Panel (or using SHIFT+ENTER)
-* create a 3D contour using interpolation & rasterize it
+
+- create a second Entity for Kidneys
+- disable Restrict by pixel intensity (if you have it enabled)
+- scroll to the top or bottom of the un-annotated kidney
+- create a contour on a single slice
+- rasterize the single contour by clicking on Rasterize in the right hand Context Panel (or using SHIFT+ENTER)
+- create a 3D contour using interpolation & rasterize it
 
 [Annotating the kidney](./Annotating%20the%20kidney%20with%203D%20Contour%20Tool.mp4)
 
-
 Flow Toolkit:
-* 3D Contour Tool
-* 3D Hole Filling - to ensure no stray holes in the kidney annotation
-* 2D Adaptive Brush Tool - to ensure pixel-perfect cleanup after the
-contours are done
+
+- 3D Contour Tool
+- 3D Hole Filling - to ensure no stray holes in the kidney annotation
+- 2D Adaptive Brush Tool - to ensure pixel-perfect cleanup after the
+  contours are done
 
 ### 3D F.A.S.T.
 
@@ -119,24 +119,23 @@ Like the 3D Contour Tool, [F.A.S.T.](https://www.notion.so/da3b77b233034b3fa0d0d
 
 F.A.S.T. is enabled for all free trials, so let's give it a try.
 
-* select the Entity you want to segment (or create a new one)
-* use LMB to create a box around the Kidney
+- select the Entity you want to segment (or create a new one)
+- use LMB to create a box around the Kidney
 
-* use LMB again to complete the box and activate F.A.S.T.
-* after the segmentation is generated, use LMB to supply F.A.S.T. with
-positive feedback (i.e. "annotate here")
-* after the segmentation is generated, use RMB to supply F.A.S.T. with negative feedback (i.e. "do not annotate here")
-
+- use LMB again to complete the box and activate F.A.S.T.
+- after the segmentation is generated, use LMB to supply F.A.S.T. with
+  positive feedback (i.e. "annotate here")
+- after the segmentation is generated, use RMB to supply F.A.S.T. with negative feedback (i.e. "do not annotate here")
 
 [Video of annotating the kidney with 3D FAST](./Annotating%20the%20kidney%20with%203D%20FAST.mp4)
-
 
 ### Object Label Attributes
 
 In some Projects, your administrators will ask you to assign extra data attributes to certain Object Labels.
-* select one of your Kidney Entities and then look at the right hand Context Panel
 
-* expand the Renal Masses field
+- select one of your Kidney Entities and then look at the right hand Context Panel
+
+- expand the Renal Masses field
 
 ![Attachment.png](./image6.png)
 
@@ -153,9 +152,9 @@ documentation
 It's time to put everything together and define a flow that
 works best for you.
 
-* annotate the Liver using any of the above methods (or a combination of them)
+- annotate the Liver using any of the above methods (or a combination of them)
 
-* annotate the Pancreas using any of the above methods (or a combination of them)
+- annotate the Pancreas using any of the above methods (or a combination of them)
 
 ## Part III - Export
 
@@ -167,25 +166,29 @@ RedBrick AI offers a special type of [data export](https://docs.redbrickai.com/p
 
 Light Reading:
 
-* [SDK Overview (Python)](https://docs.redbrickai.com/python-sdk/sdk-overview)
-* [General Export Information (Python)](https://docs.redbrickai.com/python-sdk/sdk-overview/exporting-annotations)
-* [Full Python APIReference](https://redbrick-sdk.readthedocs.io/en/stable/sdk.html)
+- [SDK Overview (Python)](https://docs.redbrickai.com/python-sdk/sdk-overview)
+- [General Export Information (Python)](https://docs.redbrickai.com/python-sdk/sdk-overview/exporting-annotations)
+- [Full Python APIReference](https://redbrick-sdk.readthedocs.io/en/stable/sdk.html)
 
 Whether you're working in Python or the CLI, you can make
 use of Semantic Export to ensure that you will always have only one annotation per Object Label.
 
 ### Python
+
 ```python
 project = redbrick.get_project(org_id, project_id, api_key, url)
 
 project.export.export_tasks(semantic_mask=True)
 ```
+
 ### CLI
+
 ```bash
 # in local directory
 
 redbrick export --semantic
 ```
+
 ## Wrap-up and Additional Resources
 
 Congratulations! You've made great progress on the road to
@@ -195,12 +198,12 @@ We wish you the best of luck in your annotation journey moving forward. Don't fo
 
 If you'd like to learn more about the platform, please feel free to consult the following resources:
 
-* [RedBrick AI Documentation](https://docs.redbrickai.com/)
+- [RedBrick AI Documentation](https://docs.redbrickai.com/)
 
-* [RedBrick AI SDK Reference](https://redbrick-sdk.readthedocs.io/en/stable/sdk.html)
+- [RedBrick AI SDK Reference](https://redbrick-sdk.readthedocs.io/en/stable/sdk.html)
 
-* [RedBrick AI YouTube Channel](https://youtube.com/@redbrickai)
+- [RedBrick AI YouTube Channel](https://youtube.com/@redbrickai)
 
-* [RedBrick AI Changelog](https://changelog.redbrickai.com/)
+- [RedBrick AI Changelog](https://changelog.redbrickai.com/)
 
-* [RedBrick AI Blog](https://blog.redbrickai.com/)
+- [RedBrick AI Blog](https://blog.redbrickai.com/)

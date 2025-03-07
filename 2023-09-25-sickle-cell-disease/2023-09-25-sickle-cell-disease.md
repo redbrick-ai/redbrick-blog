@@ -4,7 +4,7 @@ date: "2023-09-25"
 category: "Research"
 excerpt: "Explore how artificial intelligence is transforming the diagnosis, treatment, and management of sickle cell disease. From early detection to personalized treatment plans and remote monitoring, discover the innovative ways AI is offering new hope to millions affected by this genetic disorder."
 author: "Shivam Sharma"
-thumbnail: "./image2.png"
+thumbnail: "./thumbnail.png"
 ---
 
 **The Potential of AI in Sickle Cell Disease**
@@ -26,13 +26,13 @@ Prevalence.png](./image1.png)
 
 All-age total sickle cell disease mortality rate in Africa for males and
 females in 2021. Source: [The
-Lancet](https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(23)00118-7/fulltext)
+Lancet](<https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(23)00118-7/fulltext>)
 
 ‍
 
 While strides have been made to improve the quality of life for those
 with sickle cell disease, research efforts remain significantly
-underfunded. 
+underfunded.
 
 As we observe Sickle Cell Awareness Month, let\'s explore how artificial
 intelligence (AI) is playing a pivotal role in transforming the
@@ -64,7 +64,7 @@ While some carriers of the genetic trait may remain free of symptoms,
 for others, it\'s a lifelong battle. Around [300 million people
 worldwide](https://www.ncbi.nlm.nih.gov/books/NBK537130/) carry the
 sickle cell mutation, and [over 7 million suffer from the disease
-itself](https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(23)00118-7/fulltext).
+itself](<https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(23)00118-7/fulltext>).
 
 ‍
 

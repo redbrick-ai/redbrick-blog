@@ -4,7 +4,7 @@ date: "2024-06-10"
 category: "Technical"
 excerpt: "Learn how to leverage CT Segmentator for automated segmentation of 117 anatomical structures in CT scans. This guide covers the setup process, taxonomy creation, project configuration, and automated segmentation workflow using the CHAOS dataset for healthy abdominal organs."
 author: "Vikas Chauhan"
-thumbnail: "./image1.png"
+thumbnail: "./thumbnail.png"
 ---
 
 Segmentation of Healthy Abdominal Organs with CT Segmentator
@@ -13,7 +13,7 @@ Vikas Chauhan
 
 June 10, 2024
 
-![[cleanedup/19/image1.png]]
+![](./image1.png)
 
 ## Introduction
 
@@ -30,16 +30,18 @@ CT Segmentator is a powerful tool that can automatically segment 117 classes in 
 ![Overview of all 117 anatomical structures which can be segmented by CT Segmentator](./image2.png)
 
 CT Segmentator can accelerate every AI and radiomics project involving CT that requires segmentation. In many cases, Annotators can use CT Segmentator as the first step in their processing pipeline.
+
 ## Segmentation of Healthy Abdominal Organs
 
 In this guide, we will be segmenting the Healthy Abdominal organ using CT Segmentator which allows you to automatically segment up to 117 classes in the CT segment.
+
 ### Taxonomy Setup
 
 Let's start by creating a taxonomy to define what all organs we want to segment.
 
 ![](./video1.mp4)
 
-*If you are planning to create more than 10 taxonomies, we recommend you use the SDK method.*
+_If you are planning to create more than 10 taxonomies, we recommend you use the SDK method._
 
 ### Create Taxonomy using SDK
 
@@ -61,7 +63,7 @@ object_types (Optional[List[ObjectType]]) – Object types are used to annotate 
 ```
 
 You can access the SDK documentation
-[[here]{.underline}](https://sdk.redbrickai.com/sdk.html#).
+[here](https://sdk.redbrickai.com/sdk.html#).
 
 ## Setting up Project
 
@@ -78,15 +80,12 @@ Once activated, begin mapping the taxonomy from the CT Segmentator to your creat
 
 The dataset for this guide is from [CHAOS - Combined (CT-MR) Healthy Abdominal Organ Segmentation Challenge Data](https://zenodo.org/records/3431873). The database contains CT images of 40 different patients. These patients are potential liver donors, who have healthy (no tumors, lesions, or any other diseases) liver. The CT images were acquired from the upper abdomen area of the patients at the portal venous phase after contrast agent injection.
 
-*A small sample of this Dataset can be accessed from [here](https://drive.google.com/drive/folders/1FoHR4tjxKPsp7EmJAVHfNzyR0WR_eq1K)*
+_A small sample of this Dataset can be accessed from [here](https://drive.google.com/drive/folders/1FoHR4tjxKPsp7EmJAVHfNzyR0WR_eq1K)_
 
 We're using the direct upload method to upload our data here.
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/8e149121f2874dfc92b38823b23f4cb8?sid=9cc8db5b-46b5-40d3-876e-900f9a0f8bfe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ## Automated Segmentation using CT segmentator
 
 After uploading the data, the next step involves the CT Segmentator, where the uploaded images are automatically segmented. Upon clicking "start labeling," you proceed directly to the labeling stage.
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/28ab40a325d546eea7c32def102a6ae8?sid=5727b95e-894f-41a7-9ad7-6156524046d3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ![[cleanedup/19/image3.png]]

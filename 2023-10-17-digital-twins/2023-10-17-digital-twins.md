@@ -1,3 +1,12 @@
+---
+title: "The Power of Digital Twins"
+date: "2023-10-17"
+category: "Learning"
+excerpt: ""
+author: "Maarten Kolk"
+thumbnail: "./thumbnail.png"
+---
+
 **The Power of Digital Twins**
 
 Maarten Kolk
@@ -43,7 +52,7 @@ Sounds impressive, right?
 In fact, the term digital twinning has been around for some time as a
 concept from the field of engineering, which has been applied to complex
 systems such as airplanes or even cities. Digital twinning revolves
-around *in silico* (virtual) replications of a real object, system, or
+around _in silico_ (virtual) replications of a real object, system, or
 process based on a variety of data collected from it by multiple
 connected sources.
 
@@ -53,11 +62,11 @@ Digital twinning or 3D reconstruction of New York
 
 Through the vast amounts of data that is fed to the virtual model,
 numerous simulations can be ran to predict treatment outcomes and
-personalised prognosis for the real-life twin. As early as 2009, *in
-silico* testing of an artificial pancreas algorithm that facilitated
+personalised prognosis for the real-life twin. As early as 2009, _in
+silico_ testing of an artificial pancreas algorithm that facilitated
 continuous monitoring of blood glucose and insulin delivery was approved
 by the Food and Drug Administration (FDA) as a substitute to animal
-studies (1). Similarly, in 2011 the FDA approved *in silico* evidence on
+studies (1). Similarly, in 2011 the FDA approved _in silico_ evidence on
 the safety of a new cardiac pacemaker, which rested primarily on robust
 mathematical modelling that was validated with bench studies and studies
 in animals (2). One important difference is that the field of medical AI
@@ -121,8 +130,8 @@ the dangerous arrhythmia. The virtual model not only provided
  cardiologists with more accurate mappings of vulnerable heart lesions,
 it is also a non-invasive alternative that does not require any
 incisions, puncturing of the blood vessels or sedation. The findings of
-this study were published in the scientific journal *Nature Biomedical
-Engineering*, and marked a major step forward in the prevention and
+this study were published in the scientific journal _Nature Biomedical
+Engineering_, and marked a major step forward in the prevention and
 treatment of dangerous arrhythmias, in particular for patients with an
 elevated risk of these arrhythmias already.
 
