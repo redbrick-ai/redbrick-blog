@@ -1,3 +1,12 @@
+---
+title: "Guide: Automated Segmentation of Healthy Abdominal Organs Using CT Segmentator"
+date: "2024-06-10"
+category: "Technical"
+excerpt: "Learn how to leverage CT Segmentator for automated segmentation of 117 anatomical structures in CT scans. This guide covers the setup process, taxonomy creation, project configuration, and automated segmentation workflow using the CHAOS dataset for healthy abdominal organs."
+author: "Vikas Chauhan"
+thumbnail: "./image1.png"
+---
+
 Segmentation of Healthy Abdominal Organs with CT Segmentator
 
 Vikas Chauhan
@@ -26,7 +35,7 @@ CT Segmentator can accelerate every AI and radiomics project involving CT that r
 In this guide, we will be segmenting the Healthy Abdominal organ using CT Segmentator which allows you to automatically segment up to 117 classes in the CT segment.
 ### Taxonomy Setup
 
-Let’s start by creating a taxonomy to define what all organs we want to segment.
+Let's start by creating a taxonomy to define what all organs we want to segment.
 
 ![](./video1.mp4)
 
@@ -35,18 +44,18 @@ Let’s start by creating a taxonomy to define what all organs we want to segmen
 ### Create Taxonomy using SDK
 
 ```
-create_taxonomy(name, study_classify=None, series_classify=None, instance_classify=None, object_types=None)[source] 
+create_taxonomy(name, study_classify=None, series_classify=None, instance_classify=None, object_types=None)[source]
 
 Create a Taxonomy V2.
 
-PARAMETERS: 
-name (str) – Unique identifier for the taxonomy. 
+PARAMETERS:
+name (str) – Unique identifier for the taxonomy.
 
-study_classify (Optional[List[Attribute]]) – Study level classification applies to the task. 
+study_classify (Optional[List[Attribute]]) – Study level classification applies to the task.
 
-series_classify (Optional[List[Attribute]]) – Series level classification applies to a single series within a task. 
+series_classify (Optional[List[Attribute]]) – Series level classification applies to a single series within a task.
 
-instance_classify (Optional[List[Attribute]]) – Instance classification applies to a single frame (video) or slice (3D volume). 
+instance_classify (Optional[List[Attribute]]) – Instance classification applies to a single frame (video) or slice (3D volume).
 
 object_types (Optional[List[ObjectType]]) – Object types are used to annotate features/objects in tasks, for example, segmentation or bounding boxes.
 ```
@@ -67,11 +76,11 @@ Once activated, begin mapping the taxonomy from the CT Segmentator to your creat
 
 ## Uploading the Data
 
-The dataset for this guide is from [CHAOS - Combined (CT-MR) Healthy Abdominal Organ Segmentation Challenge Data](https://zenodo.org/records/3431873). The database contains CT images of 40 different patients. These patients are potential liver donors, who have healthy (no tumors, lesions, or any other diseases) liver. The CT images were acquired from the upper abdomen area of the patients at the portal venous phase after contrast agent injection.
+The dataset for this guide is from [CHAOS - Combined (CT-MR) Healthy Abdominal Organ Segmentation Challenge Data](https://zenodo.org/records/3431873). The database contains CT images of 40 different patients. These patients are potential liver donors, who have healthy (no tumors, lesions, or any other diseases) liver. The CT images were acquired from the upper abdomen area of the patients at the portal venous phase after contrast agent injection.
 
-*A small sample of this Dataset can be accessed from [here](https://drive.google.com/drive/folders/1FoHR4tjxKPsp7EmJAVHfNzyR0WR_eq1K)*
+*A small sample of this Dataset can be accessed from [here](https://drive.google.com/drive/folders/1FoHR4tjxKPsp7EmJAVHfNzyR0WR_eq1K)*
 
-We’re using the direct upload method to upload our data here.
+We're using the direct upload method to upload our data here.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/8e149121f2874dfc92b38823b23f4cb8?sid=9cc8db5b-46b5-40d3-876e-900f9a0f8bfe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 ## Automated Segmentation using CT segmentator
