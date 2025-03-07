@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "d3bc9564261f982e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c6ae10af7d6aced",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8a64a8bd75aa448",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "cleanedup/19/image3.png"
+              },
+              "icon": "lucide-image",
+              "title": "image3"
+            }
+          },
+          {
+            "id": "ea6620824d79f4f6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "cleanedup/2/thumbnail.png"
+              },
+              "icon": "lucide-image",
+              "title": "thumbnail"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f86fbd95fae65766",
+    "type": "split",
+    "children": [
+      {
+        "id": "853cf8abb2a2022e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "054ffc7459fb3dd8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2bd75b27b2d326d5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "be97a02688651434",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aebc75c5e32d21c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "03925b6f3256173c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "280bae3afb7a0f21",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "cleanedup/2/thumbnail.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for thumbnail"
+            }
+          },
+          {
+            "id": "30a13ad9de744f83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "cleanedup/2/thumbnail.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from thumbnail"
+            }
+          },
+          {
+            "id": "f6e3f9f9046f9c0f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d63b7d48ee65c6eb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "cleanedup/2/thumbnail.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of thumbnail"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ea6620824d79f4f6",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "cleanedup/2/thumbnail.png",
+    "cleanedup/1/thumbnail.png",
+    "cleanedup/3/thumbnail.png",
+    "cleanedup/5/thumbnail.png",
+    "cleanedup/4/thumbnail.png",
+    "cleanedup/7/thumbnail.png",
+    "cleanedup/7/thumbnail.png.crdownload",
+    "cleanedup/6/thumbnail.png",
+    "cleanedup/6/thumbnail.png.crdownload",
+    "cleanedup/8/thumbnail.png",
+    "cleanedup/8/thumbnail.png.crdownload",
+    "cleanedup/9/thumbnail.png",
+    "cleanedup/10/thumbnail.png",
+    "cleanedup/10/thumbnail.png.crdownload",
+    "cleanedup/11/thumbnail.png.crdownload",
+    "cleanedup/12/thumbnail.png.crdownload",
+    "cleanedup/13/thumbnail.png.crdownload",
+    "cleanedup/15/thumbnail.png.crdownload",
+    "cleanedup/17/thumbnail.png.crdownload",
+    "cleanedup/18/thumbnail.png.crdownload",
+    "cleanedup/19/2024-06-10.md",
+    "cleanedup/19/2024-06-10-ct-segmentator.md",
+    "cleanedup/18/2024-05-24-liver-tumor-fast.md",
+    "cleanedup/16/2024-03-22-cohort-creation.md",
+    "cleanedup/17/2025-04-25-annalise.md",
+    "cleanedup/17/2024-04-25-annalise.md",
+    "cleanedup/14/2024-02-15-dbt-lesions.md",
+    "cleanedup/13/2024-02-05-fda-xrays.md",
+    "cleanedup/14/2024-02-15.md",
+    "extractions/9/output.md"
+  ]
+}
