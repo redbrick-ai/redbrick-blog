@@ -11,28 +11,13 @@
             "id": "e8a64a8bd75aa448",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "cleanedup/19/image3.png"
-              },
-              "icon": "lucide-image",
-              "title": "image3"
-            }
-          },
-          {
-            "id": "ea6620824d79f4f6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "cleanedup/2/thumbnail.png"
-              },
-              "icon": "lucide-image",
-              "title": "thumbnail"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cleanedup/2/thumbnail.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for thumbnail"
+              "title": "Backlinks"
             }
           },
           {
@@ -124,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cleanedup/2/thumbnail.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from thumbnail"
+              "title": "Outgoing links"
             }
           },
           {
@@ -153,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cleanedup/2/thumbnail.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of thumbnail"
+              "title": "Outline"
             }
           }
         ]
@@ -179,38 +161,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea6620824d79f4f6",
+  "active": "e8a64a8bd75aa448",
   "lastOpenFiles": [
+    "cleanedup/19/image3.png",
+    "19/video3.mp4",
+    "19/video2.mp4",
+    "19/video1.mp4",
+    "19/thumbnail.png",
+    "19/image3.png",
+    "19/image2.png",
+    "19/image1.png",
+    "19/2024-06-10-ct-segmentator.md",
+    "19",
+    "18/video1.mp4",
+    "18/image1.png",
+    "18/thumbnail.png",
+    "18/image4.png",
+    "18/image3.png",
+    "18/image2.png",
+    "18/2024-05-24-liver-tumor-fast.md",
+    "18",
+    "17/thumbnail.png",
+    "17/2024-04-25-annalise.md",
+    "17",
+    "16/vid6.mp4",
+    "16/vid5.mp4",
+    "16/vid2.mp4",
+    "16/2024-03-22-cohort-creation.md",
+    "15/2024-02-28-redefining-neurovascular-care-rapidai.md",
+    "14/2024-02-15-dbt-lesions.md",
+    "13/2024-02-05-fda-xrays.md",
+    "12/2024-01-23-large-organ-segmentation.md",
+    "11/2024-01-23-necrosis-segmentation.md",
+    "10/2024-01-20-segmenting-aorta.md",
+    "9/2023-10-17-digital-twins.md",
+    "8/2023-09-25-sickle-cell-disease.md",
+    "7/2023-07-07-olea-medical.md",
+    "6/2023-07-11-qure.md",
+    "5/2023-04-10-fast-introduction.md",
+    "4/2023-06-08-radiomics.md",
+    "3/2022-01-15-intro-to-dicom-coordinate-systems.md",
+    "2/2024-03-06-5x-faster-manual-segmentation.md",
+    "1/2024-03-06-introduction-to-dicom-for-computer-vision-engineers.md",
     "Untitled.md",
-    "cleanedup/2/thumbnail.png",
-    "cleanedup/1/thumbnail.png",
-    "cleanedup/3/thumbnail.png",
-    "cleanedup/5/thumbnail.png",
-    "cleanedup/4/thumbnail.png",
-    "cleanedup/7/thumbnail.png",
-    "cleanedup/7/thumbnail.png.crdownload",
-    "cleanedup/6/thumbnail.png",
-    "cleanedup/6/thumbnail.png.crdownload",
-    "cleanedup/8/thumbnail.png",
-    "cleanedup/8/thumbnail.png.crdownload",
-    "cleanedup/9/thumbnail.png",
-    "cleanedup/10/thumbnail.png",
-    "cleanedup/10/thumbnail.png.crdownload",
-    "cleanedup/11/thumbnail.png.crdownload",
-    "cleanedup/12/thumbnail.png.crdownload",
-    "cleanedup/13/thumbnail.png.crdownload",
-    "cleanedup/15/thumbnail.png.crdownload",
-    "cleanedup/17/thumbnail.png.crdownload",
-    "cleanedup/18/thumbnail.png.crdownload",
     "cleanedup/19/2024-06-10.md",
     "cleanedup/19/2024-06-10-ct-segmentator.md",
     "cleanedup/18/2024-05-24-liver-tumor-fast.md",
     "cleanedup/16/2024-03-22-cohort-creation.md",
-    "cleanedup/17/2025-04-25-annalise.md",
-    "cleanedup/17/2024-04-25-annalise.md",
-    "cleanedup/14/2024-02-15-dbt-lesions.md",
-    "cleanedup/13/2024-02-05-fda-xrays.md",
-    "cleanedup/14/2024-02-15.md",
-    "extractions/9/output.md"
+    "cleanedup/17/2025-04-25-annalise.md"
   ]
 }
