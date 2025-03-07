@@ -1,6 +1,6 @@
 ---
 title: "Introduction to DICOM for Computer Vision Engineers"
-date: "2024-03-06"
+date: "2021-12-15"
 category: "Technical"
 excerpt: "DICOM (Digital Imaging and Communications in Medicine) is a standard for storing, processing, and transmitting medical images and related information. This blog is a light introduction into DICOM for data scientists and computer vision engineers."
 author: "Shivam Sharma"
