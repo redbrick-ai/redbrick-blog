@@ -1,7 +1,7 @@
 ---
 title: "Redefining neurovascular and vascular care - RapidAI & RedBrick AI"
 date: "2024-02-28"
-category: "Customers"
+category: "Customer"
 excerpt: "RapidAI is a global leader in using artificial intelligence (AI) to combat life-threatening vascular and neurovascular conditions. Their products are used in more than 2,200 hospitals in over 100 countries to help physicians make faster, more accurate decisions for better patient outcomes."
 author: "Shivam Sharma"
 thumbnail: "thumbnail.png"

@@ -1,19 +1,11 @@
 ---
 title: "Liver Tumor segmentation: F.A.S.T. vs Edge Selection with Contour tool"
 date: "2024-05-24"
-category: "Technical"
+category: "Article"
 excerpt: "Learn how the FAST tool compares to the contour tool for segmenting a liver tumor."
 author: "Vikas Chauhan"
 thumbnail: "./thumbnail.png"
 ---
-
-Liver Tumor segmentation: F.A.S.T vs Edge Selection with Contour tool
-
-Vikas Chauhan
-
-May 24, 2024
-
-![66507d12948382ff94f91a6a_Blog Post.png](./image1.png)
 
 ## Introduction
 

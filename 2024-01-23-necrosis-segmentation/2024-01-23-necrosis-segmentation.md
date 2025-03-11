@@ -7,14 +7,6 @@ author: "Ben Stewart"
 thumbnail: "./thumbnail.png"
 ---
 
-Volumetric segmentation of necrosis and edema
-
-Ben Stewart
-
-January 23, 2024
-
-## Overview
-
 For this walkthrough, we will be segmenting two types of high-grade
 gliomas (necrosis and edema) using various weighted scans.
 

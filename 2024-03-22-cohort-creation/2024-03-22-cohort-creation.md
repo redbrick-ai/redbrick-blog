@@ -1,17 +1,11 @@
 ---
-title: "Guide: Data Curation and Cohort Creation on RedBrick AI"
+title: "Data Curation and Cohort Creation on RedBrick AI"
 date: "2024-03-22"
-category: "Data Management"
+category: "Guide"
 excerpt: "A comprehensive guide on using RedBrick AI's cohort creation features for data curation and study preparation. Learn how to upload, index, filter, and organize medical imaging data with metadata management, manual classification, and distribution analysis tools."
 author: "Derek Lukacs"
 thumbnail: "./thumbnail.png"
 ---
-
-Data curation and cohort creation on RedBrick AI
-
-Derek Lukacs
-
-March 22, 2024
 
 ## Introduction to Cohort Creation
 

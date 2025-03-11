@@ -1,19 +1,11 @@
 ---
-title: "Guide: Automated Segmentation of Healthy Abdominal Organs Using CT Segmentator"
+title: "Automated Segmentation of Healthy Abdominal Organs Using CT Segmentator"
 date: "2024-06-10"
-category: "Technical"
+category: "Guide"
 excerpt: "Learn how to leverage CT Segmentator for automated segmentation of 117 anatomical structures in CT scans. This guide covers the setup process, taxonomy creation, project configuration, and automated segmentation workflow using the CHAOS dataset for healthy abdominal organs."
 author: "Vikas Chauhan"
 thumbnail: "./thumbnail.png"
 ---
-
-Segmentation of Healthy Abdominal Organs with CT Segmentator
-
-Vikas Chauhan
-
-June 10, 2024
-
-![](./image1.png)
 
 ## Introduction
 

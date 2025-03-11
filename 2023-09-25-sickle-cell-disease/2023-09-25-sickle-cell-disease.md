@@ -1,7 +1,7 @@
 ---
 title: "The Potential of AI in Sickle Cell Disease"
 date: "2023-09-25"
-category: "Research"
+category: "Article"
 excerpt: "Explore how artificial intelligence is transforming the diagnosis, treatment, and management of sickle cell disease. From early detection to personalized treatment plans and remote monitoring, discover the innovative ways AI is offering new hope to millions affected by this genetic disorder."
 author: "Shivam Sharma"
 thumbnail: "./thumbnail.png"

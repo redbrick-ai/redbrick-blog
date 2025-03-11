@@ -1,7 +1,7 @@
 ---
 title: "5x faster manual segmentation"
 date: "2022-11-11"
-category: "Technical"
+category: "Article"
 excerpt: "Building datasets for AI requires large amounts of time hand annotating data. The faster and more painless that process is, the better. We were able to make a purely manual annotation tool that speeds up segmentation by 500%."
 author: "Derek Lukacs"
 thumbnail: "./thumbnail.png"

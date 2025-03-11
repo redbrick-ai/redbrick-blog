@@ -1,7 +1,7 @@
 ---
 title: "Improved Diagnosis for Life - Olea Medical & RedBrick AI"
 date: "2023-07-07"
-category: "Customers"
+category: "Customer"
 excerpt: "Learn how Olea Medical, a Canon Medical Systems company, uses RedBrick AI to develop intelligent MRI and CT imaging solutions. Discover how their team leverages our platform to create innovative diagnostic tools used by over 250 research institutions worldwide."
 author: "Shivam Sharma"
 thumbnail: "./thumbnail.png"

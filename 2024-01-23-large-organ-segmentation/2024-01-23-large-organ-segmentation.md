@@ -7,12 +7,6 @@ author: "Ben Stewart"
 thumbnail: "./thumbnail.png"
 ---
 
-Segmentation of large organs in abdominal CT scans
-
-Ben Stewart
-
-January 23, 2024
-
 ## Part I - Configuring your environment
 
 For this walkthrough, we will be using scans from the Abdomen (Sample)
