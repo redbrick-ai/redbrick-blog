@@ -122,7 +122,7 @@ _Please refer to our documentation on [project setup](https://docs.redbrickai.co
 
 ### Importing data
 
-As in the previous section, we\'ll utilize a public items file to import the DBT data.
+As in the previous section, we'll utilize a public items file to import the DBT data.
 
 _You can download the public DBT [items JSON file here](https://drive.google.com/file/d/1e-PjHa8uwkh4vDXKBAa7utoEVoeu7C9Q/view?usp=drive_link)._
 
@@ -184,7 +184,7 @@ To import the public JSON file into a project, navigate to Import Data → Exter
 
 ### 3D bounding box using intellisync and label mirroring
 
-First, we\'re going to annotate the lesion on the initial MRI series in MPR mode. Then, using intellisync, we\'ll synchronize the view, including the scroll position, pan, and zoom level. This enables us to project the cuboid on the remaining series for synchronized viewing. As a result, we can examine the annotations on different weighted MRI scans for more precise annotations.
+First, we're going to annotate the lesion on the initial MRI series in MPR mode. Then, using intellisync, we'll synchronize the view, including the scroll position, pan, and zoom level. This enables us to project the cuboid on the remaining series for synchronized viewing. As a result, we can examine the annotations on different weighted MRI scans for more precise annotations.
 
 ## Annotating initial series in MPR mode
 

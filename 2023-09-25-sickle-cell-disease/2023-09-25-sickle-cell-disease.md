@@ -34,7 +34,7 @@ While strides have been made to improve the quality of life for those
 with sickle cell disease, research efforts remain significantly
 underfunded.
 
-As we observe Sickle Cell Awareness Month, let\'s explore how artificial
+As we observe Sickle Cell Awareness Month, let's explore how artificial
 intelligence (AI) is playing a pivotal role in transforming the
 diagnosis, treatment, and management of this condition, offering new
 hope to those affected.
@@ -61,7 +61,7 @@ Cell.png](./image2.png)
 ‍
 
 While some carriers of the genetic trait may remain free of symptoms,
-for others, it\'s a lifelong battle. Around [300 million people
+for others, it's a lifelong battle. Around [300 million people
 worldwide](https://www.ncbi.nlm.nih.gov/books/NBK537130/) carry the
 sickle cell mutation, and [over 7 million suffer from the disease
 itself](<https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(23)00118-7/fulltext>).
@@ -108,7 +108,7 @@ allowing for timely interventions.
 **Personalized Treatment Plans.**
 
 Recognizing that no two individuals with sickle cell anemia are
-identical, AI systems monitor a patient\'s health over time and craft
+identical, AI systems monitor a patient's health over time and craft
 personalized treatment plans. These plans can include optimizing
 [medication dosages based on pain
 levels](https://www.newscientist.com/article/2271074-ai-helps-assess-pain-levels-in-people-with-sickle-cell-disease/)
@@ -117,7 +117,7 @@ and scheduling proactive follow-up appointments.
 **Remote Patient Monitoring.**
 
 AI-driven wearable devices are revolutionizing patient care. These
-devices continuously collect data on a patient\'s vital signs, such as
+devices continuously collect data on a patient's vital signs, such as
 heart rate, oxygen levels, and pain indicators. In the UK, the [National
 Health Service has launched a
 scheme](https://www.lnwh.nhs.uk/news/ai-employed-to-help-fight-sickle-cell-disease-8570/)
@@ -136,7 +136,7 @@ levels](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1
 of individuals with sickle cell disease using commonly taken vital
 signs.
 
-Pain\'s subjective nature makes standardized measurement challenging,
+Pain's subjective nature makes standardized measurement challenging,
 prompting Abrams to explore whether routinely collected physiological
 data like body temperature, heart rate, and blood pressure could
 objectively assess pain.
