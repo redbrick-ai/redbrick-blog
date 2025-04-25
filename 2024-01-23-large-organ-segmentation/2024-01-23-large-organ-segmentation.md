@@ -9,21 +9,17 @@ thumbnail: "./thumbnail.png"
 
 ## Part I - Configuring your environment
 
-For this walkthrough, we will be using scans from the Abdomen (Sample)
-Project included with your RedBrick AI trial.
+For this walkthrough, we will be using scans from the Abdomen (Sample) Project included with your RedBrick AI trial.
 
-Throughout this document, you'll find check boxes that you
-can fill in after completing the associated task. For example:
+Throughout this document, you'll find check boxes that you can fill in after completing the associated task. For example:
 
 - Open a Task in the Abdomen (Sample) Project in RedBrick AI
 
 ### Masking
 
-You can apply pixel-based thresholding to any image or volume on
-RedBrick to define a "paintable" range when annotating.
+You can apply pixel-based thresholding to any image or volume on RedBrick to define a "paintable" range when annotating.
 
-For more information on the Masking Panel, check out our [full
-documentation](https://docs.redbrickai.com/annotation-and-viewer/visualization-and-masking#restrict-by-pixel-intensity).
+For more information on the Masking Panel, check out our [full documentation](https://docs.redbrickai.com/annotation-and-viewer/visualization-and-masking#restrict-by-pixel-intensity).
 
 To define your thresholding range:
 
@@ -43,8 +39,7 @@ For annotating the Kidneys, try a range of 60-610!
 
 ### For Admins - setting a default thresholding range
 
-If you're familiar with DICOM and PACS viewers,
-you've likely made use of [Hanging Protocols](https://docs.redbrickai.com/annotation-and-viewer/viewer-basics/custom-hanging-protocol#custom-hanging-protocol-format-reference), and they're also available on RedBrick AI!
+If you're familiar with DICOM and PACS viewers, you've likely made use of [Hanging Protocols](https://docs.redbrickai.com/annotation-and-viewer/viewer-basics/custom-hanging-protocol#custom-hanging-protocol-format-reference), and they're also available on RedBrick AI!
 
 ```ts
 setThresholding(0, 40, 610);
@@ -56,15 +51,11 @@ Head to Project Settings → Hanging Protocol and paste the above function into 
 
 ### Annotating the kidneys
 
-Let's explore several ways to annotate the kidneys using
-the Segmentation Toolkit.
+Let's explore several ways to annotate the kidneys using the Segmentation Toolkit.
 
 ### 3D Brush + Masking
 
-When using Masking, you can't paint outside of the flashing
-blue regions of your canvas. We can combine this setting with the 3D
-Brush to paint across slices very quickly, as demonstrated in the video
-below.
+When using Masking, you can't paint outside of the flashing blue regions of your canvas. We can combine this setting with the 3D Brush to paint across slices very quickly, as demonstrated in the video below.
 
 [Annotating the kidney video](./Annotating%20the%20kidney%20with%20the%203D%20Brush,%203D%20Hole%20Filling,%20&%203D%20Island%20Tool.mp4)
 
@@ -128,18 +119,13 @@ F.A.S.T. is enabled for all free trials, so let's give it a try.
 In some Projects, your administrators will ask you to assign extra data attributes to certain Object Labels.
 
 - select one of your Kidney Entities and then look at the right hand Context Panel
-
 - expand the Renal Masses field
 
 ![Attachment.png](./image6.png)
 
-Selecting one of these Attributes will map it to whichever Entity you
-currently have selected, making it visible to your data / MLOps
-colleagues upon export.
+Selecting one of these Attributes will map it to whichever Entity you currently have selected, making it visible to your data / MLOps colleagues upon export.
 
-You can read more about Object Label Attributes in our official
-documentation
-[here](https://docs.redbrickai.com/projects/taxonomies#object-label-attributes).
+You can read more about Object Label Attributes in our official documentation [here](https://docs.redbrickai.com/projects/taxonomies#object-label-attributes).
 
 ### Annotating the liver & pancreas
 
@@ -147,7 +133,6 @@ It's time to put everything together and define a flow that
 works best for you.
 
 - annotate the Liver using any of the above methods (or a combination of them)
-
 - annotate the Pancreas using any of the above methods (or a combination of them)
 
 ## Part III - Export
@@ -193,11 +178,7 @@ We wish you the best of luck in your annotation journey moving forward. Don't fo
 If you'd like to learn more about the platform, please feel free to consult the following resources:
 
 - [RedBrick AI Documentation](https://docs.redbrickai.com/)
-
 - [RedBrick AI SDK Reference](https://redbrick-sdk.readthedocs.io/en/stable/sdk.html)
-
 - [RedBrick AI YouTube Channel](https://youtube.com/@redbrickai)
-
 - [RedBrick AI Changelog](https://changelog.redbrickai.com/)
-
 - [RedBrick AI Blog](https://blog.redbrickai.com/)

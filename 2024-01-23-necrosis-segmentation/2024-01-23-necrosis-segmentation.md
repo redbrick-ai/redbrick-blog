@@ -7,21 +7,17 @@ author: "Ben Stewart"
 thumbnail: "./thumbnail.png"
 ---
 
-For this walkthrough, we will be segmenting two types of high-grade
-gliomas (necrosis and edema) using various weighted scans.
+For this walkthrough, we will be segmenting two types of high-grade gliomas (necrosis and edema) using various weighted scans.
 
-Our data consists of MRI acquisitions of the following sequences: T1W,
-T1W gadolinium-enhanced (i.e. T1CE), T2W, and FLAIR.
+Our data consists of MRI acquisitions of the following sequences: T1W, T1W gadolinium-enhanced (i.e. T1CE), T2W, and FLAIR.
 
 ## Structure 1: Edema
 
-Before jumping into annotations on the TICE, let's set up
-our labeling environment.
+Before jumping into annotations on the TICE, let's set up our labeling environment.
 
 ### Windowing Settings
 
-If you'd like to adjust default Windowing settings, you can
-do so by:
+If you'd like to adjust default Windowing settings, you can do so by:
 
 1. opening the Visualization Panel and adjusting the sliders, or
 2. mousing over a viewport and using CTRL+LMB+drag
@@ -34,8 +30,7 @@ do so by:
 
 Now it's time for you to try!
 
-Your RedBrick AI environment has several sample projects that you can
-use to explore the platform's features.
+Your RedBrick AI environment has several sample projects that you can use to explore the platform's features.
 
 - Open any Task in the Brain Brats Study (Sample) Project
 - Adjust the Windowing settings by using both of the methods described
@@ -60,27 +55,22 @@ It's time to create an annotation in RedBrick AI!  Select
 
 _Hotkey Alert: you could also press "4" on your keyboard to create a new Edema label._
 
-Step Two is choosing the right tool for the job! In this case,
-we'll explain how to use the **Contour Tool** to volumetrically
-segment the **Edema**.
+Step Two is choosing the right tool for the job! In this case, we'll explain how to use the **Contour Tool** to volumetrically segment the **Edema**.
 
 ### 2D Contour Tool
 
 Let's start by annotating a single slice.
 
-RedBrick AI's Contour Tool allows you to create precise
-contours using one of three methods:
+RedBrick AI's Contour Tool allows you to create precise contours using one of three methods:
 
 1. Point and click - use `LMB` to place points on the canvas, drawing a
    contour between the points
 2. Click and drag - use `LMB`+`drag` to draw a contour on the canvas
 3. Smart Contouring - while holding `CTRL`+`ALT` (or `CTRL`+`OPTION` on MacOS), hover over a boundary to automatically generate a contour. Use LMB to create the contour, or `LMB`+`drag` to smooth the contour.
 
-When you're satisfied with a contour, be sure to **Rasterize**
-it by either clicking on the Rasterize button in the right hand **Context Panel** (see below) or by pressing `SHIFT`+`ENTER`.
+When you're satisfied with a contour, be sure to **Rasterize** it by either clicking on the Rasterize button in the right hand **Context Panel** (see below) or by pressing `SHIFT`+`ENTER`.
 
-![65af90ad3414fdde3fddfa9d_Untitled
-(1).png](./image2.png)
+![65af90ad3414fdde3fddfa9d_Untitled (1).png](./image2.png)
 
 The rasterization process transforms the contour you've created into a segmentation mask, which applies your annotation to the image.
 
@@ -90,13 +80,11 @@ The following short video demonstrates all of the 3 contouring methods mentioned
 
 As you can see in the video, the Smart Contouring method does most of the work on its own with the help of properly configured Windowing settings.
 
-Please note that you can also mix and match contouring methods to edit
-your contour!
+Please note that you can also mix and match contouring methods to edit your contour!
 
 ### 2D Contour Tool Mastery
 
-Complete the tasks below to demonstrate an understanding of how to use
-the Contour Tool in 2D (i.e. on a single slice):
+Complete the tasks below to demonstrate an understanding of how to use the Contour Tool in 2D (i.e. on a single slice):
 
 1. create a contour using the point and click method
 2. create a contour using the click and drag method
@@ -107,17 +95,13 @@ the Contour Tool in 2D (i.e. on a single slice):
 
 Like many tools on RedBrick AI, the Contour Tool can be used in both 2D and 3D. Annotating in 3D will make this work flow much faster, so let's explore how to do that with interpolation.
 
-![65af91118386fcd2d1e05a68_Untitled
-(2).png](./image3.png)
+![65af91118386fcd2d1e05a68_Untitled (2).png](./image3.png)
 
-As the diagram shows, you can create contours over many slices at once
-by **contouring the first and last slices in the range**. Let's
-see what this looks like in the Annotation Tool.
+As the diagram shows, you can create contours over many slices at once by **contouring the first and last slices in the range**. Let's see what this looks like in the Annotation Tool.
 
 ![65af919fe29d0d3daf4f270b_interpolation-lo.gif](./image3.gif)
 
-After creating contours on slices 70 and 73, the Contour Tool
-automatically filled in the gaps.
+After creating contours on slices 70 and 73, the Contour Tool automatically filled in the gaps.
 
 There are 2 common ways to edit a contour:
 
@@ -126,8 +110,7 @@ There are 2 common ways to edit a contour:
 
 ### 3D Contour Tool Mastery
 
-Complete the following tasks to gain a basic understanding of how
-interpolation works with the Contour Tool:
+Complete the following tasks to gain a basic understanding of how interpolation works with the Contour Tool:
 
 1. Create a set of 5 contours by interpolating across a range of 5 slices
 2. With the Contour Tool selected, edit an existing contour
@@ -136,8 +119,7 @@ interpolation works with the Contour Tool:
 
 ### Annotating the Edema
 
-It's time to take everything you've learned
-and put it into action!
+It's time to take everything you've learned and put it into action!
 
 Let's review the flow:
 
@@ -147,8 +129,7 @@ Let's review the flow:
 
 You can find a full video outlining the process below:
 
-[Annotating the
-Edema](https://www.loom.com/share/f499a17154cc4ab7a4214c3e30aed98b?source=embed_watch_on_loom_cta)
+[Annotating the Edema](https://www.loom.com/share/f499a17154cc4ab7a4214c3e30aed98b?source=embed_watch_on_loom_cta)
 
 Finding the best combination of tools for a given use case is one of the most effective ways to make annotating less difficult, and there's no "one size fits all" solution.
 
@@ -167,8 +148,7 @@ For now, we can move on to our next structure - **Necrosis**.
 
 ## Structure 2: Necrosis
 
-Now that we have our Edema label in place, it's time to add
-some Necrosis labels!
+Now that we have our Edema label in place, it's time to add some Necrosis labels!
 
 ### Windowing Settings Mastery
 
@@ -176,9 +156,7 @@ Using the knowledge you gained above, make sure your Windowing settings are conf
 
 _We're going to want to maximize the pixel contrast between the Necrosis and the surrounding Edema. Read on to learn why!_
 
-For this part of the walkthrough, we're going to let you
-decide how to configure your environment. Please find a list of
-environment settings below.
+For this part of the walkthrough, we're going to let you decide how to configure your environment. Please find a list of environment settings below.
 
 - Configure your Windowing settings
 - Configure your pixel interpolation toggle
@@ -188,8 +166,7 @@ environment settings below.
 
 There are many things that can be done with labels in RedBrick AI, and we call these functions **Label Actions**.
 
-![65af926ab48a4f988d3e7f3d_Untitled
-(3).png](./image4.png)
+![65af926ab48a4f988d3e7f3d_Untitled (3).png](./image4.png)
 
 We have more [in-depth documentation elsewhere](https://docs.redbrickai.com/annotation/creating-editing-and-deleting-annotations#other-object-label-actions), so we recommend checking that out if you're curious. For now, let's stick to the most useful info that may not be immediately obvious:
 
@@ -208,11 +185,9 @@ Taking a moment and committing one or two Label Actions hotkeys to memory will s
 
 ### Overlapping Segmentations
 
-When you have a segmentation selected, the [Masking Panel](https://docs.redbrickai.com/annotation/visualization-and-masking#masking)
-appears on the righthand side of the screen.
+When you have a segmentation selected, the [Masking Panel](https://docs.redbrickai.com/annotation/visualization-and-masking#masking) appears on the righthand side of the screen.
 
-The [Masking Panel](https://docs.redbrickai.com/annotation/visualization-and-masking#masking)
-consists of the following elements:
+The [Masking Panel](https://docs.redbrickai.com/annotation/visualization-and-masking#masking) consists of the following elements:
 
 - Editable Area dropdown
 - Modify Other Segments dropdown
@@ -220,11 +195,7 @@ consists of the following elements:
 
 In order to properly annotate this Necrosis, we'll need an understanding of the first two fields - Editable Area and Modify Other Segments. Please see the following brief video for an overview of these fields:
 
-[Overlapping
-Segmentations](https://www.loom.com/share/536fa33679814e2f909e4944b1c0f8ba?source=embed_watch_on_loom_cta)
-
-[Overlapping
-Segmentations](https://www.loom.com/share/536fa33679814e2f909e4944b1c0f8ba?source=embed_watch_on_loom_cta)
+[Overlapping Segmentations](https://www.loom.com/share/536fa33679814e2f909e4944b1c0f8ba?source=embed_watch_on_loom_cta)
 
 If you prefer to read, here's a text summary as well:
 
@@ -232,8 +203,7 @@ _Editable Area: Everywhere allows you to annotate anywhere on the canvas, and In
 
 _Modify Other Segments: Overlap allows you to paint on top of other annotations, and Overwrite unlocked segments means that painting on top of an existing annotation will delete the underlying annotation._
 
-Demonstrate your understanding of overlapping segmentations by doing the
-following:
+Demonstrate your understanding of overlapping segmentations by doing the following:
 
 - Create a "throw-away" Edema annotation anywhere on the
   canvas
@@ -244,8 +214,7 @@ following:
 - Enable Modify Other Segments: Overwrite unlocked segments and create a Necrosis annotation inside of your "throw-away" Edema annotation
 - Hide the Necrosis label you just created - what do you see?
 
-In certain cases, it's extremely useful to cross-reference
-a single scan modality with another.
+In certain cases, it's extremely useful to cross-reference a single scan modality with another.
 
 RedBrick AI has two features that allow you to do so:
 
@@ -254,34 +223,25 @@ RedBrick AI has two features that allow you to do so:
 **Label Mirroring** allows you to visualize annotations on multiple Series
 at once.
 
-We're going to combine these features for our Necrosis
-workflow, but before that, let's do the following:
+We're going to combine these features for our Necrosis workflow, but before that, let's do the following:
 
 1. Create a 2x1 Layout Tab
-
 2. Put the Axial view of the FLAIR image in the lefthand viewport
-
 3. Put the Axial view of the T1CE in the righthand viewport
-
 4. Make sure both Series are centered (by pressing SPACE)
-
 5. Highlight the Edema label (so it's more visible)
 
 The final result should look something like this:
 
-![65af937f9590b831c4f9eaa6_Untitled
-(4).png](./image5.png)
+![65af937f9590b831c4f9eaa6_Untitled (4).png](./image5.png)
 
-When all of that is done, let's activate Intellisync and
-Label Mirroring on these two Series.
+When all of that is done, let's activate Intellisync and Label Mirroring on these two Series.
 
 You can find both of these settings by clicking on the hamburger menu in the top right of a Series viewport.
 
-![65af93ac6d2ef4bd97de2790_Untitled
-(5).png](./image6.png)
+![65af93ac6d2ef4bd97de2790_Untitled (5).png](./image6.png)
 
-_When using Intellisync, the "host" Series will have a blue
-upward-facing arrow! You can also mouse over this arrow to see which Series is "hosting" the mirrored labels._
+_When using Intellisync, the "host" Series will have a blue upward-facing arrow! You can also mouse over this arrow to see which Series is "hosting" the mirrored labels._
 
 ### Intellisync and Label Mirroring Mastery
 
@@ -295,30 +255,22 @@ Complete the following tasks to demonstrate an understanding of Intellisync and 
 
 ### Annotating Necrosis within the Edema
 
-It's now time to pull together everything
-you've learned!
+It's now time to pull together everything you've learned!
 
 - Use all of your knowledge of the Annotation Tool's features
   to produce a full annotation of Necrosis within the Edema
 
-Once you're done, you will likely have something that looks
-like this.
+Once you're done, you will likely have something that looks like this.
 
 ![65af9422f12662528ce14356_Untitled.gif](./image4.gif)
 
 ### Wrap-up and Additional Resources
 
-Congratulations! You've made great progress on the road to
-RedBrick mastery by making it all to the end of this use case. Pat
-yourself on the back!
+Congratulations! You've made great progress on the road to RedBrick mastery by making it all to the end of this use case. Pat yourself on the back!
 
-We wish you the best of luck in your annotation journey moving forward.
-Don't forget to reach out to us at
-[support@redbrickai.com](mailto:support@redbrickai.com)
-with any questions or feedback!
+We wish you the best of luck in your annotation journey moving forward. Don't forget to reach out to us at [support@redbrickai.com](mailto:support@redbrickai.com) with any questions or feedback!
 
-If you'd like to learn more about the platform, please feel
-free to consult the following resources:
+If you'd like to learn more about the platform, please feel free to consult the following resources:
 
 [RedBrick AI Documentation](https://docs.redbrickai.com/)
 
