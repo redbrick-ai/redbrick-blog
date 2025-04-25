@@ -25,7 +25,7 @@ In 1658, a physician named Jacob Wepfer identified the root cause of strokes thr
 
 ## The importance of rapid response
 
-When an acute ischemic stroke occurs, seconds count for a patient. [Studies have estimated](https://blog.redbrickai.com/blog-posts/redefining-neurovascular-and-vascular-care---rapidai-redbrick-ai#:~:text=Studies%20have%20estimated) that for every minute an ischemic stroke goes untreated, a patient can lose up to 1.9 million brain cells, which is why strokes are [among the leading causes for disability in the United States](https://www.cdc.gov/stroke/facts.htm).
+When an acute ischemic stroke occurs, seconds count for a patient. [Studies have estimated](https://pmc.ncbi.nlm.nih.gov/articles/PMC3973028/) that for every minute an ischemic stroke goes untreated, a patient can lose up to 1.9 million brain cells, which is why strokes are [among the leading causes for disability in the United States](https://www.cdc.gov/stroke/facts.htm).
 
 ![Stroke cases in different geographies](./stroke_geography.png)
 
