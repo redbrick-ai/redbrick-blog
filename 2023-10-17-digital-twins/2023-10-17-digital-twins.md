@@ -41,8 +41,7 @@ One example of such a virtual heart model that has gained the attention of the s
 
 Beyond the diagnostic and prognostic value of these digital twins, these virtual hearts have practical applications in the management of heart arrhythmias as well. Dangerous heart arrhythmias are typically treated with catheter ablation, a procedure that delivers energy to specific areas of the heart that are causing arrhythmias to occur. However, the challenge of this procedure lies in the accurate localisation of lesions in the heart that need treatment, which can lead to ineffective ablations and an increased risk of the arrhythmias to recur. To circumvent this, scientists recently developed digital twins with the goal of providing clinicians with a roadmap for the treatment of these lesions before the actual procedure (4). By simulating the delivery of electrical stimuli to different parts of the virtual heart and observing the propagation of this electrical current through the heart, they were able to pinpoint the exact location of the heart lesions responsible for the dangerous arrhythmia. The virtual model not only provided  cardiologists with more accurate mappings of vulnerable heart lesions, it is also a non-invasive alternative that does not require any incisions, puncturing of the blood vessels or sedation. The findings of this study were published in the scientific journal _Nature Biomedical Engineering_, and marked a major step forward in the prevention and treatment of dangerous arrhythmias, in particular for patients with an elevated risk of these arrhythmias already.
 
-![652d2bdeb52b8f9549a66af0_Nature Biomedical
-Engineering.png](./image3.png)
+![652d2bdeb52b8f9549a66af0_Nature Biomedical Engineering.png](./image3.png)
 
 **What are the risks?**
 
@@ -58,12 +57,12 @@ Digital twins are revolutionising the landscape of personalised medicine. Gone a
 
 **References**
 
-Kovatchev, B. P., Breton, M., Man, C. D., & Cobelli, C. (2009). In silico preclinical trials: a proof of concept in closed-loop control of type 1 diabetes. Journal of diabetes science and technology, 3(1), 44--55. <https://doi.org/10.1177/193229680900300106>
+Kovatchev, B. P., Breton, M., Man, C. D., & Cobelli, C. (2009). In silico preclinical trials: a proof of concept in closed-loop control of type 1 diabetes. Journal of diabetes science and technology, 3(1), 44--55. [https://doi.org/10.1177/193229680900300106](https://doi.org/10.1177/193229680900300106)
 
-Faris, O., & Shuren, J. (2017). An FDA Viewpoint on Unique Considerations for Medical-Device Clinical Trials. The New England journal of medicine, 376(14), 1350--1357. <https://doi.org/10.1056/NEJMra1512592>
+Faris, O., & Shuren, J. (2017). An FDA Viewpoint on Unique Considerations for Medical-Device Clinical Trials. The New England journal of medicine, 376(14), 1350--1357. [https://doi.org/10.1056/NEJMra1512592](https://doi.org/10.1056/NEJMra1512592)
 
-Zhang, Y., Zhang, K., Prakosa, A., James, C., Zimmerman, S. L., Carrick, R., Sung, E., Gasperetti, A., Tichnell, C., Murray, B., Calkins, H., & Trayanova, N. (2023). Predicting Ventricular Tachycardia Circuits in Patients with Arrhythmogenic Right Ventricular Cardiomyopathy using Genotype-specific Heart Digital Twins. medRxiv : the preprint server for health sciences, 2023.05.31.23290587. <https://doi.org/10.1101/2023.05.31.23290587>
+Zhang, Y., Zhang, K., Prakosa, A., James, C., Zimmerman, S. L., Carrick, R., Sung, E., Gasperetti, A., Tichnell, C., Murray, B., Calkins, H., & Trayanova, N. (2023). Predicting Ventricular Tachycardia Circuits in Patients with Arrhythmogenic Right Ventricular Cardiomyopathy using Genotype-specific Heart Digital Twins. medRxiv : the preprint server for health sciences, 2023.05.31.23290587. [https://doi.org/10.1101/2023.05.31.23290587](https://doi.org/10.1101/2023.05.31.23290587)
 
-Prakosa, A., Arevalo, H. J., Deng, D., Boyle, P. M., Nikolov, P. P., Ashikaga, H., Blauer, J. J. E., Ghafoori, E., Park, C. J., Blake, R. C., 3rd, Han, F. T., MacLeod, R. S., Halperin, H. R., Callans, D. J., Ranjan, R., Chrispin, J., Nazarian, S., & Trayanova, N. A. (2018). Personalized virtual-heart technology for guiding the ablation of infarct-related ventricular tachycardia. Nature biomedical engineering, 2(10), 732--740. <https://doi.org/10.1038/s41551-018-0282-2>
+Prakosa, A., Arevalo, H. J., Deng, D., Boyle, P. M., Nikolov, P. P., Ashikaga, H., Blauer, J. J. E., Ghafoori, E., Park, C. J., Blake, R. C., 3rd, Han, F. T., MacLeod, R. S., Halperin, H. R., Callans, D. J., Ranjan, R., Chrispin, J., Nazarian, S., & Trayanova, N. A. (2018). Personalized virtual-heart technology for guiding the ablation of infarct-related ventricular tachycardia. Nature biomedical engineering, 2(10), 732--740. [https://doi.org/10.1101/2023.05.31.23290587](https://doi.org/10.1101/2023.05.31.23290587)
 
 ‍
