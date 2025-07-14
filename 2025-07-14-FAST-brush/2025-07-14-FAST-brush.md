@@ -18,7 +18,7 @@ thumbnail: "./thumbnail.png"
 
 This tool allows you to iteratively "scribble" on a structure with a paint brush. Based on these scribbles our model will generate a 3D segmentation of the targeted structure. You can run this process iteratively to refine your segmentations.
 
-This is our most powerful segmentation tool yet and we can't wait for the medical imaging industry to try it.
+This is our most powerful segmentation tool yet and we can't wait for you to try it.
 
 ## RedBrick AI Boost
 
